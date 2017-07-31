@@ -25,3 +25,22 @@ sym2va = {
 '9': 9,
 }
 # Create symbol-to-value table
+
+def string2integer(string, base):
+    integer = 0
+    for character in string:
+        assert character in sym2va, 'Found unknown character!'
+        value = sym2va[character]
+        assert value < base, 'Found digit outside base!'
+        integer *= base
+        integer += value
+    return(integer)
+# Take a string and base to convert to.
+# Allocate space to store your number.
+# For each character in your string:
+#     Ensure character is in your table.
+#     Find the value of your character.
+#     Ensure value is within your base.
+#     Self-multiply your number with the base.
+#     Self-add your number with the digit's value.
+# Return the number.
