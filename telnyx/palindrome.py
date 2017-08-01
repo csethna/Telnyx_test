@@ -1,4 +1,5 @@
 # Python 2.7.10
+# Main script for use case
 # Define function for digits and bases
 def toDigits(decimal, base):
     digits = []
