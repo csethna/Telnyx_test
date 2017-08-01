@@ -1,6 +1,6 @@
 # Telnyx Python Challenge
 
-## Recieved on 7/31/17
+### Recieved on 7/31/17
 _Completed on 8/1/17 by **Cyrus Sethna**, candidate for Python Engineer._
 
 #### Running the program
