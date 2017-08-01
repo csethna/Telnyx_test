@@ -7,7 +7,7 @@ _Completed on 8/1/17 by **Cyrus Sethna**, candidate for Python Engineer._
 1. The main script is contained within `palindrome.py` and is written with `Python 2.7.10`.
 2. The unit testing suite consists of three files which start with `test_`.
 3. To test each function contained in `palindrome.py`, run 
-  1. `test_toDigits`, 
-  1. `test_isPalindrome`, 
-  1. `test_processPalindrome`.
+  3a. `test_toDigits`, 
+  3b. `test_isPalindrome`, 
+  3c. `test_processPalindrome`.
 4. You can modify the tested parameters by following the commented instructions within each `test_` file.
